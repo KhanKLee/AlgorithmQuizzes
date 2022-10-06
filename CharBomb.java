@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+/**
+ * @author Khan Lee
+ *
+ */
+
 public class CharBomb {
 
 	public static void main(String [] args)
