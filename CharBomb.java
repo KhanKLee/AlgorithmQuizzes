@@ -2,7 +2,8 @@ import java.util.Scanner;
 
 /**
  * @author Khan Lee
- *
+ * This class takes two String inputs, any characture in the second line is taken off from first line.
+ * The first line is printed at the end, if all the charactures are taken off, it prints "EMPTY".
  */
 
 public class CharBomb {
@@ -11,8 +12,10 @@ public class CharBomb {
 	{
 		Scanner input = new Scanner(System.in);
 		
+		System.out.println("Enter first line.");
 		String firstLine = input.nextLine();
 		
+		System.out.println("Enter second line.");
 		String secondLine = input.nextLine();
 		
 		
@@ -51,7 +54,7 @@ public class CharBomb {
 		
 		if(result == "")
 		{
-			System.out.println("FRULA");
+			System.out.println("EMPTY");
 		}
 		else
 		{
